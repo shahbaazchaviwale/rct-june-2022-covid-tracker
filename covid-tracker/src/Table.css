@@ -1,0 +1,22 @@
+.table_list {
+  margin: 20px 0px 20px 0px;
+  text-align: left;
+  overflow-y: scroll;
+  height: 400px;
+}
+
+.table_data tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+  border: #f3f2f8;
+}
+
+.table_data tr td {
+  padding: 0.2rem;
+}
+
+@media (max-width: 990px) {
+  .table_data tr {
+    display: flex;
+    justify-content: space-between;
+  }
+}
